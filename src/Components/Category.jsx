@@ -44,6 +44,7 @@ const SLink = styled(NavLink)`
     height: 6rem;
     object-fit: cover;
     transform: scale(0.8);
+    
 
     h4 {
         color: white;
