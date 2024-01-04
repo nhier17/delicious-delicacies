@@ -40,4 +40,20 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     npm install react icons
 
 ## Input 
-The user can search any recipe of choice
+The user can search any recipe of choice from a variety provided by the API
+
+## OutPut
+Fetched recipes are displayed in different categories; from popular, veggies and various cuisines. Onclick the user has access to instructions and ingredients of the recipes.
+
+# NAME: Abraham Nhier
+## Contact Info
+        Email: abrahamnhier97@gmail.com
+        Phone: 0716903151 
+
+## Technology Used
+    1.ReactJs
+    2.JavaScript
+    3.HTML
+    4.CSS
+## FrameWork Used
+    Git
