@@ -1,8 +1,8 @@
 # Project Name: DELICIOUS DELICACIES
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Description
+A react application for all good food lovers that lets the user have access to a wide range of recipes fetched using spoonacular API that updates regularly.
 
 In the project directory, you can run:
 
