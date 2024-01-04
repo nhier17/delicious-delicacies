@@ -52,6 +52,9 @@ const DetailWrapper = styled.div`
 margin-top: 10rem;
 margin-bottom: 5rem;
 display: flex;
+img {
+  margin-left: 2rem;
+}
 
 h2 {
   margin-bottom: 2rem;
@@ -80,11 +83,13 @@ const Button = styled.button`
   border: 2px solid black;
   font-weight: 600;
   cursor: pointer;
+  
   `
   const Info = styled.div`
     margin-left: 10rem;
     @media (max-width: 768px) {
       margin-left: 1rem;
+      display: flex;
     }
   `
 
