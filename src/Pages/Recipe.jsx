@@ -13,6 +13,7 @@ function Recipe() {
     const api = await fetch(`https://api.spoonacular.com/recipes/${params.name}/information?apiKey=${api_key}`)
     const detailData = await api.json();
     setDetails(detailData);
+  
   }
   useEffect(() => {
     fetchDetails();
@@ -35,9 +36,12 @@ function Recipe() {
   )}
   {activeTab === "ingredients" && (
   <ul>
-    {details.extendedIngredients.map(ingredient => {
-      <li key={ingredient.id}>{ingredient.original}</li>
-    })}
+   {details.extendedIngredients.map((ingredient) => (
+    <div  key={ingredient.id}>   
+       <li>{ingredient.original}</li>
+       </div>
+
+   ))}
   </ul>
   )}
 </Info>
@@ -63,6 +67,10 @@ li {
 ul {
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  display: block;
+  
+}
 `
 const Button = styled.button`
   padding: 1rem 3rem;
@@ -75,6 +83,9 @@ const Button = styled.button`
   `
   const Info = styled.div`
     margin-left: 10rem;
+    @media (max-width: 768px) {
+      margin-left: 1rem;
+    }
   `
 
 export default Recipe
