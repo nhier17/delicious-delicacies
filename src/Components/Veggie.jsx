@@ -33,7 +33,7 @@ function Veggie() {
         perPage: 4,
         pagination: false,
         drag: "free",
-        gap: "5rem", 
+        gap: "2rem", 
         breakpoints: {
             768: {
                 perPage: 2,
@@ -76,7 +76,7 @@ border-radius: 2rem;
 position: absolute;
 left: 0;
 width: 100%;
-height: 100%;
+height: 80%;
 object-fit: cover;
 }
 p {
@@ -85,7 +85,7 @@ z-index: 10;
 left: 50%;
 bottom: 0;
 width: 100%;
-height: 40%;
+height: 60%;
 color: white;
 transform: translate(-50%, 0%);
 text-align: center;
@@ -100,8 +100,8 @@ const Gradient = styled.div`
 z-index: 3;
 position: absolute;
 width: 100%;
-height: 100%;
-
+height: 80%;
+border-radius: 2rem;
 `
   
 
